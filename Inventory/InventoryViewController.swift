@@ -12,7 +12,7 @@ class InventoryViewController: UIViewController, UITableViewDataSource, UITableV
 
     @IBOutlet weak var inventoryTableView: UITableView!
     
-    let jsonFileName = "inventoryList"
+    let jsonFileName = "invent"
     
     var inventoryArray: [Product] = []
     

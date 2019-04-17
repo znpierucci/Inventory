@@ -15,7 +15,7 @@
 		2EFCA72222668DDD00603318 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCA72122668DDD00603318 /* Inventory.swift */; };
 		2EFCA72422668DED00603318 /* InventoryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCA72322668DED00603318 /* InventoryLoader.swift */; };
 		2EFCA726226693FD00603318 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCA725226693FD00603318 /* ProductViewController.swift */; };
-		2EFCA7282266A8B300603318 /* inventoryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EFCA7272266A8B300603318 /* inventoryList.json */; };
+		2EFCA72D2266B07C00603318 /* invent.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EFCA72C2266B07C00603318 /* invent.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		2EFCA72122668DDD00603318 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		2EFCA72322668DED00603318 /* InventoryLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryLoader.swift; sourceTree = "<group>"; };
 		2EFCA725226693FD00603318 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
-		2EFCA7272266A8B300603318 /* inventoryList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inventoryList.json; sourceTree = "<group>"; };
+		2EFCA72C2266B07C00603318 /* invent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = invent.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				2EFCA72122668DDD00603318 /* Inventory.swift */,
 				2EFCA72322668DED00603318 /* InventoryLoader.swift */,
 				2EFCA70F2266611F00603318 /* Main.storyboard */,
-				2EFCA7272266A8B300603318 /* inventoryList.json */,
+				2EFCA72C2266B07C00603318 /* invent.json */,
 				2EFCA70B2266611F00603318 /* AppDelegate.swift */,
 				2EFCA7122266612000603318 /* Assets.xcassets */,
 				2EFCA7142266612000603318 /* LaunchScreen.storyboard */,
@@ -134,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EFCA7282266A8B300603318 /* inventoryList.json in Resources */,
+				2EFCA72D2266B07C00603318 /* invent.json in Resources */,
 				2EFCA7162266612000603318 /* LaunchScreen.storyboard in Resources */,
 				2EFCA7132266612000603318 /* Assets.xcassets in Resources */,
 				2EFCA7112266611F00603318 /* Main.storyboard in Resources */,
