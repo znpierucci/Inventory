@@ -10,7 +10,7 @@ import UIKit
 
 class ProductViewController: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleView: UITextView!
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var quantityLabel: UILabel!
@@ -24,13 +24,15 @@ class ProductViewController: UIViewController {
         let price = String(product!.price)
         let quantity = String(product!.stockedQuantity)
         let id = String(product!.id)
+        let category = String (product!.category)
         
-        titleLabel.text = product?.title
+        titleView.text = product?.title
         priceLabel.text = price
         quantityLabel.text = quantity
         idLabel.text = id
+        categoryLabel.text = category
         
-        switch product?.category {
+        /*switch product?.category {
         case .computers?:
             categoryLabel.text = "Computers"
         case .electronics?:
@@ -41,7 +43,7 @@ class ProductViewController: UIViewController {
             categoryLabel.text = "Pets"
         default:
             print("Error!")
-        }
+        }*/
         
     }
     

@@ -20,7 +20,8 @@ struct Inventory: Codable {
 
 struct Product: Codable {
     var id: Int
-    var category: Category
+    //var category: Category
+    var category: String
     var title: String
     var price: Double
     var stockedQuantity: Int
@@ -33,12 +34,13 @@ struct Product: Codable {
         case stockedQuantity
     }
     
+    /*
     enum Category: String, Codable {
         case computers
         case electronics
         case kitchen
         case pets
-    }
+    }*/
 }
 
 

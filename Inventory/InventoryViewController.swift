@@ -12,7 +12,7 @@ class InventoryViewController: UIViewController, UITableViewDataSource, UITableV
 
     @IBOutlet weak var inventoryTableView: UITableView!
     
-    let jsonFileName = "invent"
+    let jsonFileName = "inventory"
     
     var inventoryArray: [Product] = []
     
@@ -50,7 +50,7 @@ class InventoryViewController: UIViewController, UITableViewDataSource, UITableV
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.textLabel?.text = inv.title
-        cell.detailTextLabel?.text = String(inv.stockedQuantity)
+        cell.detailTextLabel?.text = "In Stock: " + String(inv.stockedQuantity) + ", Price: " + String(inv.price)
         
         return cell
     }
@@ -65,6 +65,5 @@ class InventoryViewController: UIViewController, UITableViewDataSource, UITableV
             destination.product = inventoryArray[row]
         }
     }
-
 
 }
